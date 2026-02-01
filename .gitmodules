@@ -1,0 +1,3 @@
+[submodule ".claude/.deps/playwright-cli"]
+	path = .claude/.deps/playwright-cli
+	url = https://github.com/microsoft/playwright-cli.git
