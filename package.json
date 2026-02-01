@@ -19,7 +19,22 @@
         "command": "gpt-brainrot.openChat",
         "title": "GPT Brainrot: Open Chat Panel"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "GPT Brainrot",
+      "properties": {
+        "brainrotGpt.enableAds": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable advertisement banners during thinking phase"
+        },
+        "brainrotGpt.adRefreshInterval": {
+          "type": "number",
+          "default": 0,
+          "description": "Interval in milliseconds between ad refreshes (0 = new ad per thinking phase)"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
